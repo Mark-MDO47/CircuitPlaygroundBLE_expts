@@ -9,4 +9,5 @@ learning about Adafruit Circuit Playground BLE
     - update-circuitplayground_nrf52840_bootloader-0.9.2_nosd.uf2
   - Updating to CircuitPython 10.0.3
     - https://circuitpython.org/board/circuitplayground_bluefruit/
+    - adafruit-circuitpython-circuitplayground_bluefruit-en_US-10.0.3.uf2
 - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit
