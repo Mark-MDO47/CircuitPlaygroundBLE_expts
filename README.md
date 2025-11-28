@@ -4,11 +4,11 @@ learning about Adafruit Circuit Playground BLE
 ## Saving Data Across Reloads
 The nRF52840 Cortex M4 processor has 2 MB of SPI Flash storage.
 
-When using CircuitPython, the FLASH on the Circuit Playground BLE is turned into a filesystem, mountable from a Host PC on the USB drive. In addition to any storage your program wants to use, it stores the code and libraries.
+When using CircuitPython, the FLASH on the Circuit Playground BLE is turned into a filesystem, mountable from a Host PC on the USB drive. In addition to any storage your program wants to use, it stores your python code and libraries.
 
-CircuitPython makes this drive writeable --EITHER-- by the Host PC --OR-- by CircuitPython programs, but not both.
+CircuitPython makes this drive writeable **EITHER** by the Host PC **OR** by CircuitPython programs, but not both.
 
-Adafruit recommends having a file called boot.py which, if present, runs at boot time before code.py. A pin is allocated to let the Circuit Playground know whether it will be able to write the filesystem or not, and boot.py implements that feature by calling storage.remount().
+Adafruit recommends having a file called boot.py which, if present, runs at boot time before code.py. A pin is allocated to let the Circuit Playground know whether it will be able to write the filesystem or not, and boot.py implements that feature by calling storage.remount(). Your code.py can also read this pin to see if it can write to the filesystem or not.
 - For Circuit Playground this pin is board.D7 - a slide switch. This makes the scheme fairly practical.
 - With the USB connector at the top, if the slide switch is to the right then it is Ground and str(slide_switch.value) returns "False". Obviously to the left is "True".
 
