@@ -2,17 +2,17 @@
 learning about Adafruit Circuit Playground BLE 
 
 ## Saving Data Across Reloads
-Read this:
-- https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/circuitpython-storage
+The nRF52840 Cortex M4 processor has 1 megabyte of FLASH for storage of information across reboots.
 
 The FLASH on the Circuit Playground BLE is turned into a filesystem, mountable from a Host PC on the USB drive.
-
 CircuitPython makes this drive writeable --EITHER-- by the Host PC --OR-- by CircuitPython programs, but not both.
 
-They recommend having a file called boot.py which, if present, runs at boot time before code.py. A pin (board.D7 on Circuit Playground) is allocated to let the Circuit Playground know whether it will be able to write the filesystem or not, and boot.py implements that. This is apparently the only way to have storage retained across reloads.
+Adafruit recommends having a file called boot.py which, if present, runs at boot time before code.py. A pin is allocated to let the Circuit Playground know whether it will be able to write the filesystem or not, and boot.py implements that feature by calling storage.remount().
+- For Circuit Playground this pin is board.D7 - a slide switch. This makes the scheme fairly practical.
+- With the USB connector at the top, if the slide switch is to the right then it is Ground and str(slide_switch.value) returns "False". Obviously to the left is "True".
 
-That pin "board.D7" is the slide switch on the Circuit Playground BLE, so that is fairly practical.
-With the USB connector at the top, if the slide switch is to the right then it is Ground and str(slide_switch.value) returns "False". Obviously to the left is "True".
+This page includes the code for boot.py that I will use:
+- https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/circuitpython-storage
 
 ## References
 - https://www.adafruit.com/product/4333
