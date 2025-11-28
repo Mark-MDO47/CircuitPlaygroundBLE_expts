@@ -12,6 +12,7 @@ CircuitPython makes this drive writeable --EITHER-- by the Host PC --OR-- by Cir
 They recommend having a file called boot.py which, if present, runs at boot time before code.py. A pin (board.D7 on Circuit Playground) is allocated to let the Circuit Playground know whether it will be able to write the filesystem or not, and boot.py implements that. This is apparently the only way to have storage retained across reloads.
 
 That pin "board.D7" is the slide switch on the Circuit Playground BLE, so that is fairly practical.
+With the USB connector at the top, if the slide switch is to the right then it is Ground and str(slide_switch.value) returns "False". Obviously to the left is "True".
 
 ## References
 - https://www.adafruit.com/product/4333
