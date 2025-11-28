@@ -11,8 +11,11 @@ CircuitPython makes this drive writeable --EITHER-- by the Host PC --OR-- by Cir
 
 They recommend having a file called boot.py which, if present, runs at boot time before code.py. A pin (board.D7 on Circuit Playground) is allocated to let the Circuit Playground know whether it will be able to write the filesystem or not, and boot.py implements that. This is apparently the only way to have storage retained across reloads.
 
+That pin "board.D7" is the slide switch on the Circuit Playground BLE, so that is fairly practical.
+
 ## References
 - https://www.adafruit.com/product/4333
+  - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/downloads
   - nRF52840 Cortex M4 processor with Bluetooth Low Energy
   - updating loader to 0.9.2 from 0.9.0
     - https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/tag/0.9.2
