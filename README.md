@@ -16,6 +16,9 @@ Learning about Adafruit Circuit Playground BLE
 
 ## Things I had Trouble With
 [Top](#circuitplaygroundble_expts "Top")<br>
+
+### Running out of RAM
+[Top](#circuitplaygroundble_expts "Top")<br>
 I tried multiple things to load another image without rebooting, but they all eventually got an error saying out of RAM. I did not try every possible combination of these.
 - displayio.release_displays()
 - display.root_group = None
@@ -24,14 +27,12 @@ I tried multiple things to load another image without rebooting, but they all ev
 - bg_bitmap = None
 - gc.collect()
 
-I have not gotten CIRCUITPY file system writes to succeed yet...
+### Saving Data across Reboots
+[Top](#circuitplaygroundble_expts "Top")<br>
+Since I was having trouble loading images successively without rebooting, I decided to reboot in order to load different images. I was going to save the current image across reboot so I could cycle through the images, but I have not gotten CIRCUITPY file system writes to succeed yet...
 - therefore cannot save things across reboot
 - therefore have not implemented the "sequential" image mode
 - I guess that will be version 2
-
-### Saving Data Across Reloads
-[Top](#circuitplaygroundble_expts "Top")<br>
-The nRF52840 Cortex M4 processor has 2 MB of SPI Flash storage.
 
 When using CircuitPython, the FLASH on the Circuit Playground BLE is turned into a filesystem, mountable from a Host PC on the USB drive. In addition to any storage your program wants to use, it stores your python code and libraries.
 
@@ -43,6 +44,14 @@ Adafruit recommends having a file called boot.py which, if present, runs at boot
 
 This page includes the code for boot.py that I will use:
 - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/circuitpython-storage
+
+Unfortunately I have not yet been able to make this work.
+
+### For now I am doing this
+[Top](#circuitplaygroundble_expts "Top")<br>
+I use a random number based on the LSBs of the number of nanoseconds since power-on to choose the image to reload after power-on or reboot.
+
+I like this better than using randrange() as in the rest of the code. Psuedo-random number generators that are not seeded with a truly random seed have a potential problem of giving the same sequence over and over. I figured I would have a better chance at a random sequence using my nanosecond scheme.
 
 ## References
 [Top](#circuitplaygroundble_expts "Top")<br>
