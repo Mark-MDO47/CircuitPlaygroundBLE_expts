@@ -11,6 +11,9 @@ Learning about Adafruit Circuit Playground BLE
 * [References](#references "References")
   * [From Nordic](#from-nordic "From Nordic")
   * [From Adafruit](#from-adafruit "From Adafruit")
+    * [Update to Latest Firmware and CircuitPython](#update-to-latest-firmware-and-circuitpython "Update to Latest Firmware and CircuitPython")
+    * [Learn the basics of Circuit Playground Bluefruit](#learn-the-basics-of-circuit-playground-bluefruit "Learn the basics of Circuit Playground Bluefruit")
+    * [The big cahuna - the API registry.](#the-big-cahuna-\--the-api-registry "The big cahuna - the API registry.")
   * [Non-Official but Useful](#non\-official-but-useful "Non-Official but Useful")
 
 ## Preparation of Circuit Playground Express Bluetooth
