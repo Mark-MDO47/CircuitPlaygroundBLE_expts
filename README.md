@@ -18,6 +18,8 @@ Learning about Adafruit Circuit Playground BLE
 
 ## Preparation of Circuit Playground Express Bluetooth
 [Top](#circuitplaygroundble_expts "Top")<br>
+First - go here [Update to Latest Firmware and CircuitPython](#update-to-latest-firmware-and-circuitpython "Update to Latest Firmware and CircuitPython")<br>
+Next - assemble with TFT Gizmo
 
 ## Things I had Trouble With
 [Top](#circuitplaygroundble_expts "Top")<br>
@@ -71,13 +73,19 @@ On the other hand, randrange() is perfectly fine for controlling the many snowfl
 
 ### From Adafruit
 [Top](#circuitplaygroundble_expts "Top")<br>
-**The device itself - Circuit Playground Bluefruit - Bluetooth Low Energy
+
+#### Circuit Playground Bluefruit - Bluetooth Low Energy
+[Top](#circuitplaygroundble_expts "Top")<br>
 - https://www.adafruit.com/product/4333
   - nRF52840 Cortex M4 processor with Bluetooth Low Energy
     - On-chip according to specification: 1 MBbyte FLASH and 256 kB RAM
     - When using CircuitPython, there is a 2 MByte USB filesystem FLASH disk. Maybe some other FLASH on the board.
   - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/guided-tour
   - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/pinouts
+
+#### Circuit Playground TFT Gizmo
+[Top](#circuitplaygroundble_expts "Top")<br>
+- https://www.adafruit.com/product/4367
 
 #### Update to Latest Firmware and CircuitPython
 [Top](#circuitplaygroundble_expts "Top")<br>
