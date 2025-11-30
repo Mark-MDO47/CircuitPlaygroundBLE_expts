@@ -51,7 +51,9 @@ Unfortunately I have not yet been able to make this work.
 [Top](#circuitplaygroundble_expts "Top")<br>
 I use a random number based on the LSBs of the number of nanoseconds since power-on to choose the image to reload after power-on or reboot.
 
-I like this better than using randrange() as in the rest of the code. Psuedo-random number generators that are not seeded with a truly random seed have a potential problem of giving the same sequence over and over. I figured I would have a better chance at a random sequence using my nanosecond scheme.
+For choosing the image to load, I like this better than using randrange() as in the rest of the code. Psuedo-random number generators that are not seeded with a truly random seed have a potential problem of giving the same sequence over and over. I figured I would have a better chance at a random sequence using my nanosecond scheme.
+
+On the other hand, randrange() is perfectly fine for controlling the many snowflakes falling through the image. There are so many of them that no one would notice if it always followed a pattern.
 
 ## References
 [Top](#circuitplaygroundble_expts "Top")<br>
