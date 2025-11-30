@@ -79,7 +79,7 @@ On the other hand, randrange() is perfectly fine for controlling the many snowfl
 - https://www.adafruit.com/product/4333
   - nRF52840 Cortex M4 processor with Bluetooth Low Energy
     - On-chip according to specification: 1 MBbyte FLASH and 256 kB RAM
-    - When using CircuitPython, there is a 2 MByte USB filesystem FLASH disk. Maybe some other FLASH on the board.
+    - When using CircuitPython, there is a 2 MByte USB filesystem FLASH disk. Maybe this comes from some other FLASH on the board?
   - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/guided-tour
   - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/pinouts
 
