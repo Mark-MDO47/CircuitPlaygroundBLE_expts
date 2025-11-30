@@ -32,7 +32,9 @@ Here are my extension ideas:
 ## Preparation of the Electronics
 [Top](#circuitplaygroundble_expts "Top")<br>
 First - go here [Update to Latest Firmware and CircuitPython](#update-to-latest-firmware-and-circuitpython "Update to Latest Firmware and CircuitPython")<br>
+Next - store the **lib** files from the "simple bundle" in the original **Circuit Playground TFT Gizmo Snow Globe** by Carter Nelson onto your **CIRCUITPY** drive - https://learn.adafruit.com/circuit-playground-tft-gizmo-snow-globe?view=all
 Next - assemble with TFT Gizmo - https://learn.adafruit.com/adafruit-tft-gizmo
+Finally - Store your boot.py and code.py onto your **CIRCUITPY** drive
 
 ## Things I had Trouble With
 [Top](#circuitplaygroundble_expts "Top")<br>
