@@ -17,9 +17,9 @@ Learning about Adafruit Circuit Playground BLE
 ## Things I had Trouble With
 [Top](#circuitplaygroundble_expts "Top")<br>
 
-### Running out of RAM
+### Running out of RAM loading Sequential Images
 [Top](#circuitplaygroundble_expts "Top")<br>
-I tried multiple things to load another image without rebooting, but they all eventually got an error saying out of RAM. I did not try every possible combination of these.
+I tried multiple things to load a sequence of images without rebooting, but they all eventually got an error saying out of RAM. I did not try every possible combination of these.
 - displayio.release_displays()
 - display.root_group = None
 - snow_bmp = None
