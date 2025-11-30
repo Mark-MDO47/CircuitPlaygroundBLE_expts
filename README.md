@@ -21,7 +21,7 @@ Learning about Adafruit Circuit Playground BLE
 ## Preparation of Circuit Playground Express Bluetooth
 [Top](#circuitplaygroundble_expts "Top")<br>
 First - go here [Update to Latest Firmware and CircuitPython](#update-to-latest-firmware-and-circuitpython "Update to Latest Firmware and CircuitPython")<br>
-Next - assemble with TFT Gizmo
+Next - assemble with TFT Gizmo - https://learn.adafruit.com/adafruit-tft-gizmo
 
 ## Things I had Trouble With
 [Top](#circuitplaygroundble_expts "Top")<br>
@@ -88,6 +88,7 @@ On the other hand, randrange() is perfectly fine for controlling the many snowfl
 #### Circuit Playground TFT Gizmo
 [Top](#circuitplaygroundble_expts "Top")<br>
 - https://www.adafruit.com/product/4367
+- https://learn.adafruit.com/adafruit-tft-gizmo
 
 #### Update to Latest Firmware and CircuitPython
 [Top](#circuitplaygroundble_expts "Top")<br>
