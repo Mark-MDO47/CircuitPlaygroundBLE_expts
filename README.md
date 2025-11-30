@@ -105,7 +105,7 @@ Good idea to do this when getting a new Circuit Playground Bluefruit.
 From the Adafruit Learning System
 - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit
 
-#### The big cahuna - the API registry.
+#### The Big Cahuna - the API registry.
 [Top](#circuitplaygroundble_expts "Top")<br>
 It is for all Circuit Playground and includes a section on the Bluefruit model.
 - https://docs.circuitpython.org/projects/circuitplayground/en/latest/api.html
