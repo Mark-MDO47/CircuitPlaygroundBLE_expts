@@ -12,10 +12,13 @@ Learning about Adafruit Circuit Playground BLE
   * [Non-Official but Useful](#non\-official-but-useful "Non-Official but Useful")
 
 ## Preparation of Circuit Playground Express Bluetooth
+[Top](#circuitplaygroundble_expts "Top")<br>
 
 ## Things I had Trouble With
+[Top](#circuitplaygroundble_expts "Top")<br>
 
 ### Saving Data Across Reloads
+[Top](#circuitplaygroundble_expts "Top")<br>
 The nRF52840 Cortex M4 processor has 2 MB of SPI Flash storage.
 
 When using CircuitPython, the FLASH on the Circuit Playground BLE is turned into a filesystem, mountable from a Host PC on the USB drive. In addition to any storage your program wants to use, it stores your python code and libraries.
@@ -30,12 +33,16 @@ This page includes the code for boot.py that I will use:
 - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/circuitpython-storage
 
 ## References
+[Top](#circuitplaygroundble_expts "Top")<br>
+
 ### From Nordic
+[Top](#circuitplaygroundble_expts "Top")<br>
 **nRF52840 Specs**
 - https://docs.nordicsemi.com/bundle/ps_nrf52840/page/keyfeatures_html5.html
 - https://docs-be.nordicsemi.com/bundle/ps_nrf52840/attach/nRF52840_PS_v1.11.pdf?_LANG=enus
 
 ### From Adafruit
+[Top](#circuitplaygroundble_expts "Top")<br>
 **The device itself - Circuit Playground Bluefruit - Bluetooth Low Energy
 - https://www.adafruit.com/product/4333
   - nRF52840 Cortex M4 processor with Bluetooth Low Energy
@@ -45,6 +52,7 @@ This page includes the code for boot.py that I will use:
   - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/pinouts
 
 **Update to Latest Firmware and CircuitPython**
+[Top](#circuitplaygroundble_expts "Top")<br>
   - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/downloads
   - updating loader to 0.9.2 from 0.9.0
     - https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/tag/0.9.2
@@ -54,9 +62,11 @@ This page includes the code for boot.py that I will use:
     - adafruit-circuitpython-circuitplayground_bluefruit-en_US-10.0.3.uf2
 
 **Learn the basics** of Circuit Playground Bluefruit
+[Top](#circuitplaygroundble_expts "Top")<br>
 - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit
 
-**The big cahuna - the API registry**. It is for all Circuit Playground and includes a section on the Bluefruit model
+**The big cahuna - the API registry**. It is for all Circuit Playground and includes a section on the [Top](#circuitplaygroundble_expts "Top")<br>
+Bluefruit model
 - https://docs.circuitpython.org/projects/circuitplayground/en/latest/api.html
 
 ### Non-Official but Useful
