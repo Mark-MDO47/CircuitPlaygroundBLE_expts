@@ -18,7 +18,17 @@ Learning about Adafruit Circuit Playground BLE
     * [The big cahuna - the API registry.](#the-big-cahuna-\--the-api-registry "The big cahuna - the API registry.")
   * [Non-Official but Useful](#non\-official-but-useful "Non-Official but Useful")
 
-## Preparation of Circuit Playground Express Bluetooth
+
+## The Idea
+[Top](#circuitplaygroundble_expts "Top")<br>
+I plan to make my own version of the **Circuit Playground TFT Gizmo Snow Globe** by Carter Nelson
+- https://learn.adafruit.com/circuit-playground-tft-gizmo-snow-globe/
+
+Here are my extension ideas:
+- I want the snow globe to cycle through several different background images
+- I want to power it ultimately from AC so it can switch on and off with the Christmas tree
+
+## Preparation of the Electronics
 [Top](#circuitplaygroundble_expts "Top")<br>
 First - go here [Update to Latest Firmware and CircuitPython](#update-to-latest-firmware-and-circuitpython "Update to Latest Firmware and CircuitPython")<br>
 Next - assemble with TFT Gizmo - https://learn.adafruit.com/adafruit-tft-gizmo
