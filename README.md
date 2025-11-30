@@ -26,3 +26,4 @@ This page includes the code for boot.py that I will use:
     - https://circuitpython.org/board/circuitplayground_bluefruit/
     - adafruit-circuitpython-circuitplayground_bluefruit-en_US-10.0.3.uf2
 - https://learn.adafruit.com/adafruit-circuit-playground-bluefruit
+- https://docs.circuitpython.org/projects/circuitplayground/en/latest/api.html
