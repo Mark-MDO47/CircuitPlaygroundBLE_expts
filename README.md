@@ -16,6 +16,18 @@ Learning about Adafruit Circuit Playground BLE
 
 ## Things I had Trouble With
 [Top](#circuitplaygroundble_expts "Top")<br>
+I tried multiple things to load another image without rebooting, but they all eventually got an error saying out of RAM. I did not try every possible combination of these.
+- displayio.release_displays()
+- display.root_group = None
+- snow_bmp = None
+- bg_palette = None
+- bg_bitmap = None
+- gc.collect()
+
+I have not gotten CIRCUITPY file system writes to succeed yet...
+- therefore cannot save things across reboot
+- therefore have not implemented the "sequential" image mode
+- I guess that will be version 2
 
 ### Saving Data Across Reloads
 [Top](#circuitplaygroundble_expts "Top")<br>
