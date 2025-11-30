@@ -2,6 +2,14 @@
 Learning about Adafruit Circuit Playground BLE
 
 **Table Of Contents**
+* [Top](#circuitplaygroundble_expts "Top")
+* [Preparation of Circuit Playground Express Bluetooth](#preparation-of-circuit-playground-express-bluetooth "Preparation of Circuit Playground Express Bluetooth")
+* [Things I had Trouble With](#things-i-had-trouble-with "Things I had Trouble With")
+  * [Saving Data Across Reloads](#saving-data-across-reloads "Saving Data Across Reloads")
+* [References](#references "References")
+  * [From Nordic](#from-nordic "From Nordic")
+  * [From Adafruit](#from-adafruit "From Adafruit")
+  * [Non-Official but Useful](#non\-official-but-useful "Non-Official but Useful")
 
 ## Preparation of Circuit Playground Express Bluetooth
 
