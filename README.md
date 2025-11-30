@@ -3,7 +3,8 @@ Learning about Adafruit Circuit Playground BLE
 
 **Table Of Contents**
 * [Top](#circuitplaygroundble_expts "Top")
-* [Preparation of Circuit Playground Express Bluetooth](#preparation-of-circuit-playground-express-bluetooth "Preparation of Circuit Playground Express Bluetooth")
+* [The Idea](#the-idea "The Idea")
+* [Preparation of the Electronics](#preparation-of-the-electronics "Preparation of the Electronics")
 * [Things I had Trouble With](#things-i-had-trouble-with "Things I had Trouble With")
   * [Running out of RAM loading Sequential Images](#running-out-of-ram-loading-sequential-images "Running out of RAM loading Sequential Images")
   * [Saving Data across Reboots](#saving-data-across-reboots "Saving Data across Reboots")
@@ -15,7 +16,7 @@ Learning about Adafruit Circuit Playground BLE
     * [Circuit Playground TFT Gizmo](#circuit-playground-tft-gizmo "Circuit Playground TFT Gizmo")
     * [Update to Latest Firmware and CircuitPython](#update-to-latest-firmware-and-circuitpython "Update to Latest Firmware and CircuitPython")
     * [Learn the basics of Circuit Playground Bluefruit](#learn-the-basics-of-circuit-playground-bluefruit "Learn the basics of Circuit Playground Bluefruit")
-    * [The big cahuna - the API registry.](#the-big-cahuna-\--the-api-registry "The big cahuna - the API registry.")
+    * [The Big Cahuna - the API registry.](#the-big-cahuna-\--the-api-registry "The Big Cahuna - the API registry.")
   * [Non-Official but Useful](#non\-official-but-useful "Non-Official but Useful")
 
 
