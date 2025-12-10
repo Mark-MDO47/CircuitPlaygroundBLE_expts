@@ -56,6 +56,11 @@ Since I was having trouble loading images successively without rebooting, I deci
 - therefore have not implemented the "sequential" image mode
 - I guess that will be version 2
 
+Some documentation on this process
+- https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/circuitpython-storage
+
+Maybe I just need to RTFM! The above says (and I paraphrase): boot.py only runs after a power-cycle or hard reset, not a soft reboot. Duh.
+
 When using CircuitPython, the FLASH on the Circuit Playground BLE is turned into a filesystem, mountable from a Host PC on the USB drive. In addition to any storage your program wants to use, it stores your python code and libraries.
 
 CircuitPython makes this drive writeable **EITHER** by the Host PC **OR** by CircuitPython programs, but not both.
